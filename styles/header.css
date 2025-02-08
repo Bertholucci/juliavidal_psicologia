@@ -1,0 +1,90 @@
+  .header {
+    padding-top: 25px;
+  }
+
+  .headerlogo {
+    height: auto;
+    width: 15vw;
+  }
+
+    .container {
+        display: flex;
+    }
+
+    .logo {
+        flex-grow: 1;
+        justify-content: center;
+    }
+
+    .logo img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu {
+        flex-grow: 6;
+    }
+
+    .menu_option {
+        flex-grow: 1;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 2.3em;
+        font-weight: 700;
+    }
+
+    .headerspace {
+        flex-grow: 3;
+    }
+
+    .menu_link:hover { 
+        text-decoration: none; color:#A1E7D2; 
+    }
+
+    a:visited { 
+      text-decoration: none; color: black;
+  }
+
+    a:focus { 
+      text-decoration: none; color:#A1E7D2; 
+  }
+
+  .whatsapp-redirect {
+    color: white;
+    background-color: #25D366;
+    border-radius: 25px;
+    padding: 8px 3px 8px 4px;
+    margin-top: 21px;
+    border: 2px solid #A1E7D2;
+  }
+
+  .whatsapp-redirect:hover {
+    color: white;
+    background-color: #338a4a;
+    border-radius: 25px;
+    padding: 8px 3px 8px 4px;
+    margin-top: 21px;
+    border: 2px solid #A1E7D2;
+  }
+
+  .fa-whatsapp:hover {
+    color: white;
+  }
+    
+  @media only screen and (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .headerlogo {
+      height: auto;
+      width: 35vw;
+    }
+
+    .whatsapp-redirect {
+      padding: 8px 0px 8px 0px;
+    }
+  }
+
+

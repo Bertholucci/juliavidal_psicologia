@@ -1,0 +1,53 @@
+.aboutme {
+    margin-top: 50px;
+}
+
+.aboutme_card img {
+    margin: 50px;
+    width: 23vw;
+    height: auto;
+} 
+
+.aboutme_description {
+    text-align: justify;
+    vertical-align: middle;
+    font-size: 2.3em;
+    font-weight: 500;
+    padding: 30px 70px 70px 70px;
+}
+
+.aboutme_header {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3.5em;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .aboutme_card img {
+        width: 75vw;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .aboutme_description {
+        text-align: justify;
+        vertical-align: middle;
+        font-size: 1.5em;
+        font-weight: 500;
+        padding: 15px 10px 10px 10px;
+    }
+
+    .aboutme_header {
+        text-align: center;
+        vertical-align: middle;
+        font-size: 2.8em;
+        font-weight: 700;
+    }
+  }
