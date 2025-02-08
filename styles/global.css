@@ -14,4 +14,20 @@ body {
 	-moz-osx-font-smoothing:grayscale;
 }
 
+hr {
+  margin: 40px 0px 40px 0px;
+  height: 1px;
+  font-size: 0;
+  border: 0;
+}
 
+@media only screen and (max-width: 800px) {
+  hr {
+    margin: 40px 0px 40px 0px;
+    height: 1px;
+    color: lightgrey;
+    background: lightgrey;
+    font-size: 0;
+    border: 0;
+  }
+}
