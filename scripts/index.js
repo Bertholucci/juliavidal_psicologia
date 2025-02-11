@@ -12,3 +12,9 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+window.onload = function() {
+  for (i = 0; i < acc.length; i++) {
+    acc[i].click();
+  }
+};
