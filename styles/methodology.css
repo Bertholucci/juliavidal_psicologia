@@ -54,6 +54,61 @@
     padding: 5px;
   }
 
+  .location_header {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3.5em;
+    font-weight: 700;
+  }
+
+  .location_text {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2.3em;
+    font-weight: 500;
+  }
+
+  .logo {
+    flex: 2;
+    padding-left: 80px;
+    padding-top: 30px;
+  }
+
+  .inscription {
+    flex: 2;
+    padding-left: 50px;
+    text-align: center;
+  }
+
+  .schedule {
+    flex: 2;
+    gap: 50px;
+    text-align: center;
+  }
+
+  .contacts {
+    flex: 2;
+    gap: 50px;
+    text-align: center;
+  }
+
+  .footer_header {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.8em;
+    font-weight: 700;
+  }
+
+  #contact {
+    background-image: url("../images/background.png");
+    background-size:100% 100%;
+    color: #2e2e2e
+  }
+
+  .location_card {
+    padding-top: 10px;
+  }
+
   @media only screen and (max-width: 800px) {
     .methodology_faq {
         padding: 0px 15px 0px 15px;
@@ -65,5 +120,14 @@
 
     .button_container {
       display: inline;
+    }
+
+    .inscription {
+      padding-left: 0px;
+    }
+
+    .logo {
+      padding-left: 0px;
+      padding-top: 0px;
     }
   }
